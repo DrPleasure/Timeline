@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Progression of Human Communication</title>
+  </head>
+  <body>
+    <header>
+      <h1>Progression of Human Communication</h1>
+    </header>
+    <div class="active-event">
+      <div class="active-event-content">
+        <!-- The active event's content will be displayed here -->
+      </div>
+    </div>
+
+    <section class="timeline">
+      <div class="timeline-row">
+        <!-- TIMELINE EVENTS -->
+        <article
+          class="timeline-event"
+          data-event-id="cave-paintings"
+          data-img-src="./src/assets/cavepainting.png"
+          onclick="showActiveEvent('cave-paintings')"
+        >
+          <div class="event-content">
+            <h2>Cave Paintings</h2>
+            <p>Approximately 43,000 BCE</p>
+          </div>
+          <div class="timeline-marker"></div>
+        </article>
+        <article
+          class="timeline-event"
+          data-event-id="petroglyphs"
+          data-img-src="./src/assets/petroglyphs.png"
+          onclick="showActiveEvent('petroglyphs')"
+        >
+          <div class="event-content">
+            <h2>Petroglyphs</h2>
+            <p>Approximately 10,000 BCE</p>
+          </div>
+          <div class="timeline-marker"></div>
+        </article>
+        <article
+          class="timeline-event"
+          data-event-id="cuneiform"
+          data-img-src="./src/assets/cuneiform.jpg"
+          onclick="showActiveEvent('cuneiform')"
+        >
+          <div class="event-content">
+            <h2>Sumerian Cuneiform</h2>
+            <p>Approximately 3,500 BCE</p>
+          </div>
+          <div class="timeline-marker"></div>
+        </article>
+        <article
+          class="timeline-event"
+          data-event-id="hieroglyphs"
+          data-img-src="./src/assets/hieroglyphs.jpg"
+          onclick="showActiveEvent('hieroglyphs')"
+        >
+          <div class="event-content">
+            <h2>Egyptian Hieroglyphs</h2>
+            <p>Approximately 3,200 BCE</p>
+          </div>
+          <div class="timeline-marker"></div>
+        </article>
+        <article
+        class="timeline-event"
+        data-event-id="empty-2"
+        onclick="showActiveEvent('empty-2')"
+      >
+      <div class="event-content">
+          <h2>Carrier Pigeons</h2>
+          <p>Approximately 2,000 BCE</p>
+        </div>
+        <div class="timeline-marker"></div>
+      </article>
+        <article
+          class="timeline-event"
+          data-event-id="empty-1"
+          onclick="showActiveEvent('empty-1')"
+        >
+        <div class="event-content">
+            <h2>Phoenician Alphabet</h2>
+            <p>Approximately 1,200 BCE</p>
+          </div>
+          <div class="timeline-marker"></div>
+        </article>
+   
+        <article
+          class="timeline-event"
+          data-event-id="empty-2"
+          onclick="showActiveEvent('empty-2')"
+        >
+          <div class="event-content"></div>
+          <div class="timeline-marker"></div>
+        </article>
+        <article
+          class="timeline-event"
+          data-event-id="empty-2"
+          onclick="showActiveEvent('empty-2')"
+        >
+          <div class="event-content"></div>
+          <div class="timeline-marker"></div>
+        </article>
+        <article
+          class="timeline-event"
+          data-event-id="empty-2"
+          onclick="showActiveEvent('empty-2')"
+        >
+          <div class="event-content"></div>
+          <div class="timeline-marker"></div>
+        </article>
+      </div>
+    </section>
+    <!-- <footer>
+      <p>&copy; Olaf Glad, 2023</p>
+    </footer> -->
+    <script src="main.js"></script>
+  </body>
+</html>
